@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in {1..10}; do
+  docker run -e ORG='Default_Organization' -e AK='ak_rhel7' katello-client-rhel-6.7 &
+done  
+
